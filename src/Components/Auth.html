@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Login</title>
+</head>
+
+<body>
+    <p><label id="Username">Username</label><input type="text" id="Username"></p>
+    <p><label id="Password">Password</label><input type="password" id="Password"></p>
+    <button varient="primary" href="localhost:5500/src/Components/Form.html">Submit</button>
+
+    <script src="https://www.gstatic.com/firebase.js/7.20.0 /firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebase.js/7.20.0 /firebase-auth.js"></script>
+    <script>
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyCiUXdmo7Tp9a_prU9C--E75F6nfg59UDo",
+            authDomain: "goodbook-lk.firebaseapp.com",
+            projectId: "goodbook-lk",
+            storageBucket: "goodbook-lk.appspot.com",
+            messagingSenderId: "768524823787",
+            appId: "1:768524823787:web:e812c71b559579e36b62ae",
+            measurementId: "G-LEWW0JD31F"
+        };
+        firebase.initializeApp(config);
+    </script>
+    <script src="Connect.js"></script>
+</body>
+
+</html> 
